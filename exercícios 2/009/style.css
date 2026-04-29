@@ -1,0 +1,70 @@
+@charset"UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mogra&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    font-style: arial;
+    background-color: rgb(222, 238, 144);
+    --font-padrão: arial,verdana;
+}
+*{
+    margin: 0%;
+}
+    .header{
+        background-image: linear-gradient(to bottom,lightgreen,green 60%);
+        height: 74px;
+
+
+    }
+    .nav{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        transition-duration: 1s;
+    }
+    .nav:hover{
+        background-color: lightgreen;
+        color: green;
+        transform: scale(0.3s);
+    }
+    .h2{
+         font-family: "Mogra", system-ui;
+         font-weight: 400;
+         font-style: normal;
+         text-align: center;
+    }
+    .p1{
+        text-align: center;
+    }
+    .main{
+        margin: auto;
+        text-align: justify;
+        min-width: 800px;
+        max-width: 320px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.584);
+    }
+    .img{
+        width: 100%;
+    }
+    .footer{
+        text-align: center;
+        background-color: green;
+        color: white;
+        max-width: 800px;
+        min-width: 320px;
+        margin: auto;
+        background-image: linear-gradient(to top,lightgreen,green 60%);
+    }
+    .aside{
+        margin: auto;
+        width: 700px;
+        background-color: lightgreen;
+        border-radius: 10px;
+    }
+    .h3{
+        background-color: green;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px ;
+    }
